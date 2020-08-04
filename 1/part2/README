@@ -1,8 +1,0 @@
-Solving this requires the reuse of idea from part 1.
-
-Steps:
-1. We calculate the fuel required by taking a cummulitative sum of values by dividing by 3 (floor) and subtract by 2.
-	insert his fuel mass to an array if the value is positive ( > 0 only ) 
-2. The values calculated in step 1 will be stored in an array and repeat step 1 on this new array of values. Go to step 3 if array size is 0
-
-3. The solution is the cummulitaive sum so far
