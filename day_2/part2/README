@@ -1,0 +1,6 @@
+We should write a fuzzer that uses the solution in part 1.
+
+The fuzzer will replace the position 1 and 2 with values between 0 and 99. (brute force of n^2 complexity)
+until we find a program which has the value '19690720' at position 0.
+
+The answer to this challenge would be 100*program[1]+program[2]
