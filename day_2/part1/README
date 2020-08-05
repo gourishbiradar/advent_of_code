@@ -1,0 +1,12 @@
+Solving this is like writing an emulator with a very very small set of opcodes
+
+1 for addition 
+2 for multiplication
+99 for return
+any other integer passed as opcode arguments are vector positions ( program is stored as vector of integers)
+
+We can read the input file and store in a vector of integers,
+pass the vector to an emulator to run through program
+return the program as vector of integers.
+
+The driver function (in our case main ) will return the value at position 0 as the required answer
