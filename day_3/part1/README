@@ -1,0 +1,8 @@
+Solving this would require maintaining a map of tuples (x,y) and set with with 1 or 0 for intersection points meeting or not.
+
+Using manhantan distance find the closest intersection point from the central port, we should do this while building the grid itself to avoid multiple loops
+
+O(n*n)
+
+
+implementation : works (kinda... bad coding practices)
